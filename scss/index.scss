@@ -1,0 +1,217 @@
+@import "navbar";
+@import "welcome";
+@import "owl";
+@import "ready";
+@import "service";
+@import "news";
+@import "car";
+@import "hover";
+@import "count";
+@import "footer";
+@import "form";
+
+
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.bg-infoa
+{
+    background:#F2F7F9;
+
+    .q
+    {
+        &:hover
+        {
+            color:blue;
+            cursor: pointer;
+
+        }
+    }
+}
+.heehe
+{
+    top: -9px; 
+    margin-left: 2px;
+ 
+}
+.asqwq
+{
+    height:201px;
+}
+
+.qw
+{
+    border: 1px solid rgb(192, 178, 178);
+    border-radius: 25px;
+p
+{
+    padding: 3px;
+    text-align: center;
+    margin-top: 6px;
+}
+span
+{
+    font-weight: bold;
+    color: red;
+}
+}
+.okl
+{
+    margin-top: 12px;
+}
+
+.navbar
+{
+    z-index: 3;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.slider-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+	height: 70vh;
+	width: 100vw;
+}
+
+.slider-container h2 {
+	color: #fff;
+	font-size: 40px;
+	letter-spacing: 3px;
+	position: relative;
+	z-index: 100;
+	// text-align: center;
+}
+.bb
+{
+        position: relative;
+        z-index: 100;
+        left: -570px;
+    top: 114px;
+        // text-align: center;
+
+}
+.slider-container h4 {
+	color: #fff;
+	// font-size: 40px;
+	// letter-spacing: 3px;
+	position: relative;
+	z-index: 100;
+	// text-align: center;
+    left: -398px;
+    background: rgb(136, 73, 73);
+    padding:4px;
+    
+    top: 69px;
+}
+
+
+.slider-container::after {
+	background-color: #000;
+	content: '';
+	position: absolute;
+	opacity: 0.4;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+.slide {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	transform: scale(1.15);
+	transition: opacity .6s ease;
+}
+
+.slide.active {
+	animation: grow 4s linear forwards;
+	opacity: 1;
+}
+
+@keyframes grow {
+	0%, 20% {
+		transform: scale(1);
+	}
+	
+	75%, 100% {
+		transform: scale(1.15);
+	}
+}
+
+.controls-container {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	display: flex;
+	flex-direction: column;
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+.control {
+	background-color: #fff;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 6px;
+	height: 40px;
+	width: 5px;
+	transition: opacity 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.control.active, .control:hover {
+	background-color: #fff;
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+.navkoho
+{
+    width: 100%;
+}
+
+.heramlaa
+{
+	box-shadow: 5px 5px 10px 10px grey;
+}
+.lalan
+
+{
+	letter-spacing: 4px;
+
+}
+
+.offcanvas-top
+{
+	height: 64vh !important;
+	background-color: rgb(202, 146, 146) !important;
+}

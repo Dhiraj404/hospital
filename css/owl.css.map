@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC,SAAS,CAAC,GAAG,CAAA;EACnB,OAAO,EAAC,GAAG;CACZ;;AACD,AAAA,SAAS,CAAC,SAAS,CAAC,GAAG,CAAA;EACrB,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,qBAAqB,EAAE,GAAG;EAC1B,kBAAkB,EAAE,GAAG;EACvB,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "../scss/owl.scss"
+    ],
+    "names": [],
+    "file": "owl.css"
+}

@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.kka
+{
+    font-size:45px;
+    font-weight:bold;
+    font-family: 'Dancing Script', cursive;
+
+    span
+    {
+        color:rgb(175, 61, 61);
+        text-transform: uppercase;
+    }
+}
+
+.kkaa
+{
+    font-size:19px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.ala
+{
+    color: rgb(0, 140, 255);
+    h5
+    {
+        font-size:70px !important;
+        font-weight:bold;
+
+    }
+
+}
+
+.ho
+{
+    font-size:20px;
+}
+.hm
+{
+    font-weight: lighter;
+}
+
+
+
+.tinted-image {
+    width: 550px;
+    height: 550px;
+    
+    background: 
+    /* make both colors the same for a single color
+       change one of the colors for a two-color effect*/ 
+    linear-gradient(
+      rgb(0, 0, 0.1), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/doc2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .adu
+  {
+      margin-left:40px;
+
+      a
+      {
+        color: rgb(255, 255, 255);
+      }
+      
+      i
+      {
+          border: 9px solid red;
+          border-radius:50%;
+        //   color:red;
+        background-color: red;
+          
+        }
+
+        &:hover i
+        {
+        //    background-color:rgb(255, 255, 255);
+          border: 9px solid rgb(255, 255, 255);
+
+
+          border-radius:50%;
+        //   color:red;
+        background-color: rgb(255, 255, 255);
+        
+    }    
+  }
+  .ala
+  {
+      // margin-left:45px;
+      margin-left: -20px;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+   .lau {
+     display: none;
+    }
+  }
+
+.asqw
+{
+    width: 20%;
+}
+
+.mada
+{
+  margin-left: 66px;
+
+}
+
+.rara
+{
+  font-weight:lighter;
+}
+
+.tinted-imager {
+  width: 550px;
+  height: 520px;
+  
+  background: 
+  /* make both colors the same for a single color
+     change one of the colors for a two-color effect*/ 
+  linear-gradient(
+    rgb(31, 156, 214), 
+    rgba(11, 177, 228, 0.5)
+  ),
+  url(../img/doc1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
